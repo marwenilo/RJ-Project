@@ -95,6 +95,10 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
+<<<<<<< HEAD
+=======
+  font-family: 'Roboto', sans-serif !important;
+>>>>>>> master
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -132,6 +136,10 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+input,
+textarea {
+  font-family: 'Roboto', sans-serif !important;
 }
 `;
 
