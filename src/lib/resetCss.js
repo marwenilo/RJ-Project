@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const reset = createGlobalStyle`
  #root,
@@ -9,6 +9,7 @@ body,
 }
 body {
   background: #eff2f5;
+
 }
 html,
 body,
@@ -95,10 +96,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-<<<<<<< HEAD
-=======
+
   font-family: 'Roboto', sans-serif !important;
->>>>>>> master
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
