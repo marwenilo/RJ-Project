@@ -28,7 +28,6 @@ font-size:39px
     color: #192A56;
     
     font-size:16px;
-    font-family:'Compact Display';
     
     height: 152px;
     ul li a {
