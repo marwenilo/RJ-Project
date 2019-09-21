@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const reset = createGlobalStyle`
  #root,
@@ -9,6 +9,7 @@ body,
 }
 body {
   background: #eff2f5;
+
 }
 html,
 body,
@@ -95,7 +96,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: "SF Pro Display";
+  font-family: 'Roboto', sans-serif !important;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -133,6 +134,10 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+input,
+textarea {
+  font-family: 'Roboto', sans-serif !important;
 }
 `;
 

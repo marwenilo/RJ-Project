@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const footerWrapper = styled.div`
 
@@ -75,7 +75,5 @@ font-size:39px
  
 
 `;
-
-
 
 export default footerWrapper;
