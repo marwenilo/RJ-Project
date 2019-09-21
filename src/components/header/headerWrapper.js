@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
 const headerWrapper = styled.div`
-  background: red;
-  width:100%;
-  height:50px;
+font-family: 'sf_compact_displayregular' ;
+margin-top:30px;
+width:100%;
+.intro{
+  display: flex;
+   
+    justify-content: center;
+
+}
 `;
 
 export default headerWrapper;
