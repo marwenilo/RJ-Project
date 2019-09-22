@@ -1,15 +1,16 @@
 import React from "react";
 import LoginWrapper from "./loginWrapper";
+import { Link } from 'react-router-dom';
 import GitHub from "./components/GitHub";
 import Google from "./components/Google";
 
 const Login = () => (
   <LoginWrapper>
     <div className="title-container">
-      <h1 className="title">Create your Account</h1>
+      <h1 className="title">Connect</h1>
       <h2 className="sub-title">
         Already have a <span className="right">RightJob</span> account?{" "}
-        <a href="/">Sign in</a>
+        <Link to="/inscription">Sign in</Link>
       </h2>
     </div>
     <div className="links">
