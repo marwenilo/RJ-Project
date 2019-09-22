@@ -5,16 +5,15 @@ line-height: 26px;
 width:100%;
 color: #192A56;
 .card {
-    min-height: 750px;
+    min-height: 70vh;
+    position: relative
 }
 .bigCard{
     display: none;
     flex-direction column;
-    position: absolute;
+    position: relative;
     width: 60%;
-    right: 0;
-    top: 0;
-    max-height: 750px;
+    left: 40%;
 }
 .bigCard:hover {
     display: flex;       
@@ -37,7 +36,7 @@ color: #192A56;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     height: 80px;
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
     border-left:transparent solid 3px;
     padding: 10px;
@@ -82,8 +81,6 @@ color: #192A56;
     align-items : center;
     justify-content:center;
     width:500px;
-   
-
 }
 .headerP{
     margin-left:30px;
@@ -100,7 +97,6 @@ color: #192A56;
     font-size:16px;
 }
 .save {
-
     display: flex;
     justify-content: center;
     width : 70px;
