@@ -2,7 +2,6 @@ import styled from 'styled-components';
 //linear-gradient(rgba(77, 74, 74, 0.1), rgba(029, 31, 0, 0.39)),
 const HomeWrapper = styled.div`
 font-family:'Compact Display',sans-serif;
-margin-top:30px;
  line-height: 26px;
 width:100%;
 color: #192A56;
@@ -49,7 +48,7 @@ border-box: box-sizing;
 
      }
  .logoJob{
-     color:#716FB1
+     color:#716FB1;
      margin-right:3px;
      font-size:21px;
      font-weight:bold;
@@ -103,7 +102,7 @@ border-box: box-sizing;
         align-items:center;
         flex-direction: column;
         max-width: 700px;
-        margin-top: 30px
+        margin-top: 30px;
         .hiringImg {
             display:flex;
             justify-content:center;
@@ -174,12 +173,12 @@ background-color:white;
 }
 .story h3{
     display: flex;
-    align-text:center;
+    text-align:center;
    color: #45516e;
     padding: 10px 20px;
 }
 .story h4{
-    #7a7e86;
+    color:#7a7e86;
     padding: 10px 0;
     font-size:14px
 }
@@ -188,7 +187,6 @@ background-color:white;
    margin-top: 30px;
     font-size:30px
 }
-
 `;
 
 export default HomeWrapper;
