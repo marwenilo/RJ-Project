@@ -32,17 +32,17 @@ const Home = () => (
          <h4 className="number">6,000,000</h4>
                             
                         </div>
-                        <div class="card">
+                        <div className="card">
         <h3 className="title">SEARCHABLE CANDIDATES</h3>
          <h4 className="number">64,000,000</h4>
                             
                         </div>
-                           <div class="card">
+                           <div className="card">
         <h3 className="title">SEARCHABLE rightJob RESUMES</h3>
          <h4 className="number">2,700,000</h4>
                             
                         </div>
-                           <div class="card">
+                           <div className="card">
         <h3 className="title">UNIQUE MONTHLY VISITORS</h3>
          <h4 className="number">1,500,000</h4>
                             
