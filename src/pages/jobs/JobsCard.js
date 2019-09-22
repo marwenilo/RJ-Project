@@ -5,7 +5,7 @@ const Card = ({ ele }) => {
       {ele.map((el, i) => (
         <div className="cardcomp">
           {/* {el.class} */}
-          <div className="smallCardContainer" style={{top:`${i*82}px`}}>
+          <div className="smallCardContainer" style={{top:`${i*80}px`}}>
             <div className="smallCardLeft">
               <h1>{el.post}</h1>
               <h4>{el.adress}</h4>
