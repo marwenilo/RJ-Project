@@ -14,13 +14,9 @@ function Routee() {
         <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-<<<<<<< HEAD
             <Route path="/jobs" component={Jobs} />
-          
-=======
             <Route exact path="/login" component={Login} />
             <Route  path="/inscription" component={Inscription} />
->>>>>>> c49b47724360f7e37d00eaf7cfff5c93237b3235
           </Switch>
         </Router>
         <Footer />
