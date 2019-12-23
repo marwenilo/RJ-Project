@@ -1,9 +1,12 @@
 import React from 'react';
 // css mta3 comp 
 
-const Home = () => (
+const Home = () => ( 
  <>
- dsf
+
+ hjgnhdsfksdjfksdjghfs
+
  </>
 );
+
 export default Home;
