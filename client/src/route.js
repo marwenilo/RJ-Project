@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Home from './pages/Home/Home';
+import Home from './pages/Home/Home';
 // import Jobs from './pages/jobs/Jobs';
 // import Header from './components/header';
 // import Footer from './components/footer';
@@ -10,16 +10,17 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function Routee() {
   return (
       <div>
-        {/* <Router>
-        <Header />
-          <Switch>
+        <Router>
+        {/* <Header /> */}
+          {/* <Switch> */}
             <Route exact path="/" component={Home} />
-            <Route path="/jobs" component={Jobs} />
+            {/* <Route path="/jobs" component={Jobs} />
             <Route exact path="/login" component={Login} />
-            <Route  path="/inscription" component={Inscription} />
-          </Switch>
+            <Route  path="/inscription" component={Inscription} /> */}
+          {/* </Switch> */}
         </Router>
-        <Footer /> */}
+        
+        {/* <Footer /> */}
       </div>
   );
 }
