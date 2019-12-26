@@ -1,6 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import "./assets/css/bootstrap.min.css";
+import "./assets/scss/now-ui-kit.scss";
+import "./assets/demo/demo.css";
+import "./assets/demo/nucleo-icons-page-styles.css";
 // import Jobs from './pages/jobs/Jobs';
 // import Header from './components/header';
 // import Footer from './components/footer';
