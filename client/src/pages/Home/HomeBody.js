@@ -25,11 +25,11 @@ function IndexHeader() {
 
   return (
     <div >
-      <div className="page-header clear-filter" filter-color="blue">
+      <div className="page-header">
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("../../assets/img/header.jpg") + ")"
+            backgroundColor: "#f47779"
           }}
           ref={pageHeader}
         ></div>
@@ -38,7 +38,7 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
-              src={require("../../assets/img/now-logo.png")}
+              src={require("../../assets/img/drum-set.svg")}
             ></img>
           <h1 className="h1-seo">Try MusicIn For free </h1>
             <h3>Listen to millions of songs on demand without ads and charges.</h3>

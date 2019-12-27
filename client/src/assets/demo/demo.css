@@ -455,8 +455,9 @@
 }
 
 .brand .n-logo {
-  max-width: 100px;
-  margin-bottom: 40px;
+  fill:red;
+  max-width: 70px;
+  margin-bottom: 30px;
 }
 
 .invision-logo {
