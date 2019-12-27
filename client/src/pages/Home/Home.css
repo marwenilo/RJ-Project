@@ -1,3 +1,7 @@
-*   {
-    background-color:red;
+
+.homeStyle{
+    margin-top: 20%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }

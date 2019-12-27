@@ -17,7 +17,15 @@ function Routee() {
         <Router>
         {/* <Header /> */}
           {/* <Switch> */}
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Home}
+            
+            
+            
+            
+            
+            
+            
+            />
             {/* <Route path="/jobs" component={Jobs} />
             <Route exact path="/login" component={Login} />
             <Route  path="/inscription" component={Inscription} /> */}
