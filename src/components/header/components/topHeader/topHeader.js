@@ -9,7 +9,7 @@ const TopHeader = () => {
   return (
     <TopHeaderWrapper>
       <Link to="/">< img src="/assets/images/logo.svg" alt=""/></Link>
-      <navbar className="justify-content-between">
+      <nav className="justify-content-between">
         <Form inline className="case3">
           <FormControl
             type="text"
@@ -31,7 +31,7 @@ const TopHeader = () => {
           </Button>
             </Link>
         </Form>
-      </navbar>
+      </nav>
     </TopHeaderWrapper>
   );
 };

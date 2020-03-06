@@ -16,12 +16,12 @@ const Header = () => {
 
           <ul>
 
-            <li><a href='#'>Find Jobs</a></li>
-            <li><a href='#'>Upload Resume</a></li>
-            <li><a href='#'>Salary</a></li>
-            <li><a href='#'>Mobile App</a></li>
-            <li><a href='#'>Site Map</a></li>
-            <li><a href='#'>Help</a></li>
+            <li><a href='google.com'>Find Jobs</a></li>
+            <li><a href='google.com'>Upload Resume</a></li>
+            <li><a href='google.com'>Salary</a></li>
+            <li><a href='google.com'>Mobile App</a></li>
+            <li><a href='google.com'>Site Map</a></li>
+            <li><a href='google.com'>Help</a></li>
 
           </ul>
         </div>
@@ -29,10 +29,10 @@ const Header = () => {
         <h4>For Employers</h4>
           <ul>
          
-            <li><a href='#'>Search</a></li>
-            <li><a href='#'>Resumes</a></li>
-            <li><a href='#'>Site Map</a></li>
-            <li><a href='#'>Help</a></li>
+            <li><a href='google.com'>Search</a></li>
+            <li><a href='google.com'>Resumes</a></li>
+            <li><a href='google.com'>Site Map</a></li>
+            <li><a href='google.com'>Help</a></li>
         
           </ul>
         </div>
@@ -41,10 +41,10 @@ const Header = () => {
           <ul>
            
           
-            <li><a href='#'>About Monster</a></li>
-            <li><a href='#'>Work for Monster</a></li>
-            <li><a href='#'> Partner with Us</a></li>
-            <li><a href='#'>RightJob International</a></li>
+            <li><a href='google.com'>About Monster</a></li>
+            <li><a href='google.com'>Work for Monster</a></li>
+            <li><a href='google.com'> Partner with Us</a></li>
+            <li><a href='google.com'>RightJob International</a></li>
             
 
           </ul>
@@ -54,12 +54,12 @@ const Header = () => {
           <ul>
            
          
-            <li><a href='#'>Contact Us</a></li>
-            <li><a href='#'>Terms of Use</a></li>
-            <li><a href='#'>Privacy Center</a></li>
-            <li><a href='#'>Security Center</a></li>
-            <li><a href='#'>Accessibility Center</a></li>
-            <li><a href='#'>AdChoices</a></li>
+            <li><a href='google.com'>Contact Us</a></li>
+            <li><a href='google.com'>Terms of Use</a></li>
+            <li><a href='google.com'>Privacy Center</a></li>
+            <li><a href='google.com'>Security Center</a></li>
+            <li><a href='google.com'>Accessibility Center</a></li>
+            <li><a href='google.com'>AdChoices</a></li>
 
           </ul>
         </div>
@@ -68,12 +68,12 @@ const Header = () => {
           <ul>
             
           
-            <li><a href='#'>US Jobs</a></li>
-            <li><a href='#'>Canada Jobs</a></li>
-            <li><a href='#'>UK Jobs</a></li>
-            <li><a href='#'>Emplois en France</a></li>
-            <li><a href='#'>Jobs in Deutschland</a></li>
-            <li><a href='#'>Vacatures in Nederland</a></li>
+            <li><a href='google.com'>US Jobs</a></li>
+            <li><a href='google.com'>Canada Jobs</a></li>
+            <li><a href='google.com'>UK Jobs</a></li>
+            <li><a href='google.com'>Emplois en France</a></li>
+            <li><a href='google.com'>Jobs in Deutschland</a></li>
+            <li><a href='google.com'>Vacatures in Nederland</a></li>
 
           </ul>
         </div>

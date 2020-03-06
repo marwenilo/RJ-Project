@@ -7,7 +7,7 @@ width:100%;
 color: #192A56;
 border-box: box-sizing;
 .homeContainer{
-    background-size: 100%;
+    background-size: 100%;  
    background-image: linear-gradient(rgba(77, 74, 74, 0.1), rgba(029, 31, 0, 0.39)),url(/assets/images/depositphotos.jpg);
    background-repeat: no-repeat;
 }
