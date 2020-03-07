@@ -1,33 +1,61 @@
-import React from 'react';
+import React, { Component } from 'react'
 import { connect } from 'react-redux';
 // import "./Style.css"
 // import CompanyProflesWrapper from './CompanyProflesWrapper'
 import CompanyCard from "./components/CompanyCard"
+import { searchCompany } from '../../Js/actions/action';
 
+ class CompanyProfile extends Component {
 
-const CompanyProfile=({companyList})=> {
-
+    state={
+        name:""
+    }
+    filterName =(e)=>{
+        this.setState({
+            name:e.target.value
+        })
+    }
+//  CompanyProfile=({companyList,searchCompany})=>{
+//     companyList=companyList,
+//     searchCompany=searchCompany
+//  }
+ render() {
 return (
 <div className="companyContainer">
+<input placeholder="Search for Company" type="text" className=" case" onChange={this.filterName}/>
+
 {
-    companyList.map((el,key)=>
+    this.props.companyList.filter(el=>el.name.toLowerCase().includes(this.state.name)).map((el,key)=>
         <CompanyCard key={key} img={el.img} descr={el.descr} name={el.name} type={el.type} address={el.address} />
     )
 }
-
 </div>
 )
-}
+}}
+
+
+// const mapDispatchToProps = (dispatch) => ({
+    
+//         searchCompany: (payload) => {
+//             dispatch(searchCompany(payload))
+//         }
+    
+// })
+
+
 
 const mapStateToProps = state => ({
     companyList: state.companyReducer.companyList,
 
   });
-  export default connect(mapStateToProps)(CompanyProfile);
+  
+  export default connect(mapStateToProps,null)(CompanyProfile)
 
 
 
 
+  
+        
 
 
 
