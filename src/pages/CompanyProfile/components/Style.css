@@ -284,3 +284,22 @@ h1 {
           transform: translate(5px, -50%);
   opacity: 1;
 }
+.wrapper img{
+
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+/* margin: 0 40px; */
+/* max-width: 140px; */
+height: auto;
+}
+.wrapper:hover  img {
+filter: grayscale(0);
+-webkit-filter: grayscale(0);
+-moz-filter: grayscale(0);
+-ms-filter: grayscale(0);
+-o-filter: grayscale(0);
+
+}
