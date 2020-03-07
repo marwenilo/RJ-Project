@@ -1,23 +1,29 @@
 import React from 'react';
+import { connect } from 'react-redux';
 // import "./Style.css"
-import CompanyProflesWrapper from './CompanyProflesWrapper'
+// import CompanyProflesWrapper from './CompanyProflesWrapper'
 import CompanyCard from "./components/CompanyCard"
-import {companies} from "./components/data"
 
-const CompanyProfile=()=> {
+
+const CompanyProfile=({companyList})=> {
 
 return (
-<div className="marwen">
+<div className="companyContainer">
 {
-    companies.map((el,key)=>
-        <CompanyCard key={key} img={el.img} descr={el.descr} name={el.name} />
+    companyList.map((el,key)=>
+        <CompanyCard key={key} img={el.img} descr={el.descr} name={el.name} type={el.type} address={el.address} />
     )
 }
 
 </div>
 )
 }
-export default CompanyProfile
+
+const mapStateToProps = state => ({
+    companyList: state.companyReducer.companyList,
+
+  });
+  export default connect(mapStateToProps)(CompanyProfile);
 
 
 

@@ -2,10 +2,12 @@
 * {
   box-sizing: border-box;
 }
-.marwen{
+.companyContainer{
   display: flex;
+  justify-content: center;
 align-items: center;
 flex-wrap: wrap;
+margin: 10px 0;
 }
 a {
   text-decoration: none;
@@ -18,7 +20,7 @@ h1 {
 
 .row {
   min-width: 25%; 
-  margin: 30px 63px;
+  margin: 25px 43px;
   /* margin: 50px auto 0; */
 }
 
@@ -57,7 +59,7 @@ h1 {
 }
 .card .wrapper {
   background-color: #fff;
-  min-height: 540px;
+  min-height: 50vh;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
@@ -102,7 +104,18 @@ h1 {
 }
 
 .example-1 .wrapper {
-  background: url(https://images.unsplash.com/photo-1496979551903-46e46589a88b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cda12b505afa1beb06e49d89014cbd65&auto=format&fit=crop&w=634&q=80) 20% 1%/cover no-repeat;
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.w{
+  /* background-repeat: repeat-y; */
+ width: 20vw;
+    position: absolute;
+    /* top: 0; */
+ 
 }
 .example-1 .date {
   position: absolute;
