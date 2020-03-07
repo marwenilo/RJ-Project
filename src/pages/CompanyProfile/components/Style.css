@@ -2,8 +2,22 @@
 * {
   box-sizing: border-box;
 }
+.ConatinerCompany{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.case{
+  width: 25%;
+  margin: 20px 0;
+  height: 50px;
+  border: gray 1px solid;
+}
 .companyContainer{
   display: flex;
+  width: 100vw;
+  /* flex-direction: column; */
   justify-content: center;
 align-items: center;
 flex-wrap: wrap;
