@@ -1,68 +1,84 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux';
-import "./components/Style.css"
-// import CompanyProflesWrapper from './CompanyProflesWrapper'
-import CompanyCard from "./components/CompanyCard"
-// import { searchCompany } from '../../Js/actions/action';
+import './profile.css'
+const CompanyProfile = ({companyList}) => {
+    console.log(companyList)
+  return (
 
- class CompanyProfile extends Component {
+    <div className="test">
+    
+    <div className="wrappers">
+<div className="wraps">
+  
+  <div className="arrow animated bounce"></div>
+  
+  <header className="header">   
+    <div className="logo"></div>
+    <nav className="navv">
+      <ul className="ull">
+        <li className="lii"><p>sdfsqdqsd</p></li>
+        <li className="lii"><p>sdfsqdqsd</p></li>
+        <li className="lii"><p>sdfsqdqsd</p></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  <section className="transparent">
+    <div className="headline"></div>
+    <div className="texts"></div>
+    <div className="texts"></div>
+    <div className="button"></div>
+  </section> 
+  <section className="cards">
+    <div className="cardss">
+      <img src="https://imgplaceholder.com/500x300/transparent/ddd/ion-image" alt=""/>
+      <div className="content">
+        <div className="headline">ZAERTYUUIUYTR</div>
+        <div className="texts">ERTYJUI</div>
+        <div className="texts">ERTTYRERZ</div>
+        <div className="button">BV</div>
+      </div>
+    </div>
+    <div className="cardss">
+      <img src="https://imgplaceholder.com/500x300/transparent/ddd/ion-image" alt="" className="img"/>
+      <div className="content">
+        <div className="headline">QSDVN??.NB</div>
+        <div className="texts">qsdqsdqsdqsd</div>
+        <div className="texts">qsdqsdqsdqsd</div>
+        <div className="button">bv</div>
+      </div>
+    </div>
+    <div className="cardss">
+      <img src="https://imgplaceholder.com/500x300/transparent/ddd/ion-image" alt="" className="img"/>
+      <div className="content">
+        <div className="headline">sqdfhj;gfd</div>
+        <div className="texts">qsdqsdqsdq</div>
+        <div className="texts">qsdqsdqsdqsdqs</div>
+        <div className="button">bv</div>
+      </div>
+    </div>
+  </section>
+  
+  <section className="contentbox">
+    <div className="headline">qsdsdfghj,hjgfds</div>
+    <div className="texts">qsdqsdqsd</div>
+    <div className="texts">qsdqsdqsdqs</div>
+    <div className="texts">qsdqsdqsdqs</div>
+    <div className="button"></div>
+  </section>
+  
+</div>
+</div>
+  
+    </div>
 
-    state={
-        name:""
-    }
-    filterName =(e)=>{
-        this.setState({
-            name:e.target.value
-        })
-    }
-//  CompanyProfile=({companyList,searchCompany})=>{
-//     companyList=companyList,
-//     searchCompany=searchCompany
-//  }
- render() {
-return (
-
-<div className="ConatinerCompany">
-<input placeholder="Search for Company" type="text" className=" case" onChange={this.filterName}/>
-
-<div className="companyContainer">
-
-{
-    this.props.companyList.filter(el=>el.name.toLowerCase().includes(this.state.name)).map((el,key)=>
-        <CompanyCard key={key} img={el.img} descr={el.descr} name={el.name} type={el.type} address={el.address} />
     )
-}
-</div>
-</div>
-)
-}}
+    }
 
-
-// const mapDispatchToProps = (dispatch) => ({
+    const mapStateToProps = state => ({
+        companyList: state.companyProfileReducer.companyList,
     
-//         searchCompany: (payload) => {
-//             dispatch(searchCompany(payload))
-//         }
-    
-// })
+      });
+    export default connect(mapStateToProps,null)(CompanyProfile)
 
-
-
-const mapStateToProps = state => ({
-    companyList: state.companyReducer.companyList,
-
-  });
-  
-  export default connect(mapStateToProps,null)(CompanyProfile)
-
-
-
-
-  
-        
-
-
-
-
-
-  

@@ -1,5 +1,5 @@
 import {image} from "../assets/index.js"
-import { SET_COMPANY_NAME_FILTER} from "../Constants/actions-types"
+// import { SET_COMPANY_NAME_FILTER} from "../Constants/actions-types"
 const nameInitialState = {
     companyList:[
         {
@@ -61,10 +61,14 @@ const nameInitialState = {
 }
  const companyReducer = (state = nameInitialState, action) => {
     switch (action.type) {
-        case  SET_COMPANY_NAME_FILTER:
-            return  state.companyList.filter(el=>el.name.toLocaleLowerCase().includes(action.payload.toLocaleLowerCase()))
-        // case ACTION_TYPE_2:
-        //     return state
+        // case  SET_COMPANY_NAME_FILTER:
+        //     const result = {
+        //         ...state,
+        //         companyList: action.payload.length > 0 
+        //         ? state.companyList.filter( el => el.name.toLocaleLowerCase().includes(action.payload.toLocaleLowerCase())) 
+        //         : nameInitialState.companyList
+        //     }
+            // console.log(result);s
         default:
             return state
     }
