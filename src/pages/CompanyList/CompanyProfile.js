@@ -22,7 +22,7 @@ import CompanyCard from "./components/CompanyCard"
  render() {
 return (
 
-<div className="ConatinerCompany">
+<div className="ConatinerWrapper">
 <input placeholder="Search for Company" type="text" className=" case" onChange={this.filterName}/>
 
 <div className="companyContainer">

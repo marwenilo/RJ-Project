@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.ConatinerWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 .ConatinerCompany{
   display: flex;
@@ -12,6 +20,11 @@
   width: 25%;
   margin: 20px 0;
   height: 50px;
+  border-radius: 14px;
+  padding: 5px;
+  /* border-radius: 112% 116%; */
+  overflow: hidden;
+  /* border: none; */
   border: gray 1px solid;
 }
 .companyContainer{
@@ -33,14 +46,14 @@ h1 {
 }
 
 .row {
-  min-width: 25%; 
-  margin: 25px 43px;
-  /* margin: 50px auto 0; */
+  min-width: 19%;
+  margin: 25px 33px;
 }
 
 .card {
   float: left;
-
+  border-radius: 5%;
+  overflow: hidden;
   width: 100%; 
 }
 .card .menu-content {
@@ -73,7 +86,7 @@ h1 {
 }
 .card .wrapper {
   background-color: #fff;
-  min-height: 50vh;
+  min-height: 44vh;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);

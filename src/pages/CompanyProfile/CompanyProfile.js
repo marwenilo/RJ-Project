@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux';
 import './profile.css'
+import {profile} from './data'
 const CompanyProfile = ({companyList}) => {
     console.log(companyList)
   return (
@@ -13,7 +14,8 @@ const CompanyProfile = ({companyList}) => {
   <div className="arrow animated bounce"></div>
   
   <header className="header">   
-    <div className="logo"></div>
+    <div className="logo">
+    <img src={profile.logo} alt="" className="logoImg" /></div>
     <nav className="navv">
       <ul className="ull">
         <li className="lii"><p>sdfsqdqsd</p></li>

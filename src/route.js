@@ -28,4 +28,4 @@ function Routee() {
   );
 }
 
-export default Routee;
+export default Routee ;

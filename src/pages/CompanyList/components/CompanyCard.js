@@ -26,7 +26,7 @@ return (
           <h3 className="author">{type}</h3>
           <h1 className="title"><a href="google.com">{address}</a></h1>
           <p className="text">{descr}</p>
-          <label for="show-menu" className="menu-button"><span></span></label>
+          {/*<label for="show-menu" className="menu-button"><span></span></label>*/ } 
         </div>
         <input type="checkbox" id="show-menu" />
         <ul className="menu-content">
