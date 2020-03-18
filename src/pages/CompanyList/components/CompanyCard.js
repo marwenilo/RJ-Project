@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Style.css"
 import { Link } from 'react-router-dom';
+import { connect } from "react-redux"
+
 /*import { makeStyles } from '@material-ui/core/styles'; */
 /*import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -11,10 +13,10 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography'; */
 
 
-
- const CompanyCard=({img,name,descr,type,address})=> {
+ const CompanyCard=({img,name,descr,type,address,id})=> {
+   
 return (
-  <Link className="companyLink" to="/compnay-profile"> 
+  <Link className="companyLink" to={`/compnay-profile/${id}`}>
 <div className="row">
 
   <div className="example-1 card">
@@ -46,7 +48,13 @@ return (
  
 );
 }
-export default CompanyCard
+const mapStateToProps = state => ({
+  companyList: state.companyReducer.companyList,
+
+});
+
+export default connect(mapStateToProps,null)(CompanyCard)
+
 
 
 

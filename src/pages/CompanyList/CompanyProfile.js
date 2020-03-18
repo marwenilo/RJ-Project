@@ -6,6 +6,7 @@ import CompanyCard from "./components/CompanyCard"
 // import { searchCompany } from '../../Js/actions/action';
 
 
+
  class CompanyList extends Component {
 
     state={
@@ -31,7 +32,7 @@ return (
 
 {
     this.props.companyList.filter(el=>el.name.toLowerCase().includes(this.state.name)).map((el,key)=>
-   <CompanyCard key={key} img={el.img} descr={el.descr} name={el.name} type={el.type} address={el.address} /> 
+   <CompanyCard key={key} img={el.img} descr={el.descr} name={el.name} type={el.type} address={el.address} id={el.id} /> 
     )
 }
 </div>
