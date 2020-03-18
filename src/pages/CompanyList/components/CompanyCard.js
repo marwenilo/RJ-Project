@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Style.css"
-
+import { Link } from 'react-router-dom';
 /*import { makeStyles } from '@material-ui/core/styles'; */
 /*import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -14,8 +14,9 @@ import Typography from '@material-ui/core/Typography'; */
 
  const CompanyCard=({img,name,descr,type,address})=> {
 return (
-
+  <Link className="companyLink" to="/compnay-profile"> 
 <div className="row">
+
   <div className="example-1 card">
     <div className="wrapper"  >
     <img src={img} alt="img" className="w"/>
@@ -40,6 +41,8 @@ return (
     </div>
   </div>
   </div>
+  </Link>
+ 
  
 );
 }

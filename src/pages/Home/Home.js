@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeWrapper from './HomeWrapper';
+import { Link } from 'react-router-dom';
 
 const Home = () => (
   <HomeWrapper>
@@ -51,7 +52,9 @@ const Home = () => (
     </div>
     <div className='hiringContainer'>
     <div className='hiring'>
+    <Link to="/compnay-lists">
 <h1>Who's Hiring </h1>
+</Link>
 <div className='hiringImg'>
         <img src='/assets/images/adidas.png' alt='facebook' />
         <img src='/assets/images/ooredoo.png' alt='ooredoo'  />
