@@ -1,7 +1,7 @@
-import React, { Profiler } from 'react'
+import React from 'react'
 import { connect } from 'react-redux';
 import './profile.css'
-import {profile} from './data'
+
 
 
 

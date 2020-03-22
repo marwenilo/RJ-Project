@@ -9,7 +9,8 @@ import Footer from './components/footer';
 import Login from './pages/login';
 import Inscription from './pages/inscription';
 
-function Routee() {
+
+const Routee=()=> {
   return (
       <div>
         <Router>
@@ -17,7 +18,7 @@ function Routee() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/jobs" component={Jobs} />
-            <Route exact path="/compnay-lists" component={CompanyList} />
+            <Route exact path="/compnay-lists" component={CompanyList } />
             <Route  path="/compnay-profile/:id" exact component={CompanyProfile} />
             <Route exact path="/login" component={Login} />
             <Route  path="/inscription" component={Inscription} />

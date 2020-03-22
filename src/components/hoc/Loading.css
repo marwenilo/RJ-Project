@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
-a {
+.siteLoading {
   position: fixed;
   bottom: 2%;
   display: block;
@@ -10,16 +10,14 @@ a {
   width: 100%;
 }
 
-body, html {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
 
-body {
-  background: -webkit-gradient(linear, left top, right top, from(#fcfcfc), to(green));
-  background: linear-gradient(90deg, #fcfcfc, green);
-  box-shadow: inset 0px 0px 90px rgba(0, 0, 0, 0.5);
+
+.bodyLoading {
+  /* background: -webkit-gradient(linear, left top, right top, from(white), to(black)); */
+  background: linear-gradient(90deg, #60AE32, #716fb1);
+  box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
   margin: 0px;
   padding: 0px;
 }
@@ -42,10 +40,10 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  border: 5px solid rgba(255, 255, 255, 0.7);
+  border: 5px dotted  wheat;
   border-right: none;
   border-top: none;
-  backgroudn-clip: padding;
+  background-clip: padding;
   box-shadow: inset 0px 0px 10px rgba(0, 128, 0, 0.15);
 }
 
