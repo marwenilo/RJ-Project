@@ -10,11 +10,8 @@
   width: 100%;
 }
 
-
-
 .bodyLoading {
-  /* background: -webkit-gradient(linear, left top, right top, from(white), to(black)); */
-  background: linear-gradient(90deg, #60AE32, #716fb1);
+  background: linear-gradient(90deg, #60ae32, #716fb1);
   box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.5);
   width: 100vw;
   height: 100vh;
@@ -40,7 +37,7 @@
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  border: 5px dotted  wheat;
+  border: 5px dotted wheat;
   border-right: none;
   border-top: none;
   background-clip: padding;
@@ -50,934 +47,934 @@
 @-webkit-keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 .circle:nth-of-type(0) {
   -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 .circle:nth-of-type(0) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(1) {
   -webkit-transform: rotate(70deg);
-          transform: rotate(70deg);
+  transform: rotate(70deg);
 }
 .circle:nth-of-type(1) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(2) {
   -webkit-transform: rotate(140deg);
-          transform: rotate(140deg);
+  transform: rotate(140deg);
 }
 .circle:nth-of-type(2) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(3) {
   -webkit-transform: rotate(210deg);
-          transform: rotate(210deg);
+  transform: rotate(210deg);
 }
 .circle:nth-of-type(3) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(4) {
   -webkit-transform: rotate(280deg);
-          transform: rotate(280deg);
+  transform: rotate(280deg);
 }
 .circle:nth-of-type(4) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(5) {
   -webkit-transform: rotate(350deg);
-          transform: rotate(350deg);
+  transform: rotate(350deg);
 }
 .circle:nth-of-type(5) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(6) {
   -webkit-transform: rotate(420deg);
-          transform: rotate(420deg);
+  transform: rotate(420deg);
 }
 .circle:nth-of-type(6) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(7) {
   -webkit-transform: rotate(490deg);
-          transform: rotate(490deg);
+  transform: rotate(490deg);
 }
 .circle:nth-of-type(7) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(8) {
   -webkit-transform: rotate(560deg);
-          transform: rotate(560deg);
+  transform: rotate(560deg);
 }
 .circle:nth-of-type(8) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(9) {
   -webkit-transform: rotate(630deg);
-          transform: rotate(630deg);
+  transform: rotate(630deg);
 }
 .circle:nth-of-type(9) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(10) {
   -webkit-transform: rotate(700deg);
-          transform: rotate(700deg);
+  transform: rotate(700deg);
 }
 .circle:nth-of-type(10) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(11) {
   -webkit-transform: rotate(770deg);
-          transform: rotate(770deg);
+  transform: rotate(770deg);
 }
 .circle:nth-of-type(11) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(12) {
   -webkit-transform: rotate(840deg);
-          transform: rotate(840deg);
+  transform: rotate(840deg);
 }
 .circle:nth-of-type(12) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(13) {
   -webkit-transform: rotate(910deg);
-          transform: rotate(910deg);
+  transform: rotate(910deg);
 }
 .circle:nth-of-type(13) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(14) {
   -webkit-transform: rotate(980deg);
-          transform: rotate(980deg);
+  transform: rotate(980deg);
 }
 .circle:nth-of-type(14) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(15) {
   -webkit-transform: rotate(1050deg);
-          transform: rotate(1050deg);
+  transform: rotate(1050deg);
 }
 .circle:nth-of-type(15) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(16) {
   -webkit-transform: rotate(1120deg);
-          transform: rotate(1120deg);
+  transform: rotate(1120deg);
 }
 .circle:nth-of-type(16) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(17) {
   -webkit-transform: rotate(1190deg);
-          transform: rotate(1190deg);
+  transform: rotate(1190deg);
 }
 .circle:nth-of-type(17) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(18) {
   -webkit-transform: rotate(1260deg);
-          transform: rotate(1260deg);
+  transform: rotate(1260deg);
 }
 .circle:nth-of-type(18) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(19) {
   -webkit-transform: rotate(1330deg);
-          transform: rotate(1330deg);
+  transform: rotate(1330deg);
 }
 .circle:nth-of-type(19) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(20) {
   -webkit-transform: rotate(1400deg);
-          transform: rotate(1400deg);
+  transform: rotate(1400deg);
 }
 .circle:nth-of-type(20) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(21) {
   -webkit-transform: rotate(1470deg);
-          transform: rotate(1470deg);
+  transform: rotate(1470deg);
 }
 .circle:nth-of-type(21) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(22) {
   -webkit-transform: rotate(1540deg);
-          transform: rotate(1540deg);
+  transform: rotate(1540deg);
 }
 .circle:nth-of-type(22) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(23) {
   -webkit-transform: rotate(1610deg);
-          transform: rotate(1610deg);
+  transform: rotate(1610deg);
 }
 .circle:nth-of-type(23) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(24) {
   -webkit-transform: rotate(1680deg);
-          transform: rotate(1680deg);
+  transform: rotate(1680deg);
 }
 .circle:nth-of-type(24) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(25) {
   -webkit-transform: rotate(1750deg);
-          transform: rotate(1750deg);
+  transform: rotate(1750deg);
 }
 .circle:nth-of-type(25) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(26) {
   -webkit-transform: rotate(1820deg);
-          transform: rotate(1820deg);
+  transform: rotate(1820deg);
 }
 .circle:nth-of-type(26) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(27) {
   -webkit-transform: rotate(1890deg);
-          transform: rotate(1890deg);
+  transform: rotate(1890deg);
 }
 .circle:nth-of-type(27) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(28) {
   -webkit-transform: rotate(1960deg);
-          transform: rotate(1960deg);
+  transform: rotate(1960deg);
 }
 .circle:nth-of-type(28) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(29) {
   -webkit-transform: rotate(2030deg);
-          transform: rotate(2030deg);
+  transform: rotate(2030deg);
 }
 .circle:nth-of-type(29) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(30) {
   -webkit-transform: rotate(2100deg);
-          transform: rotate(2100deg);
+  transform: rotate(2100deg);
 }
 .circle:nth-of-type(30) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(31) {
   -webkit-transform: rotate(2170deg);
-          transform: rotate(2170deg);
+  transform: rotate(2170deg);
 }
 .circle:nth-of-type(31) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(32) {
   -webkit-transform: rotate(2240deg);
-          transform: rotate(2240deg);
+  transform: rotate(2240deg);
 }
 .circle:nth-of-type(32) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(33) {
   -webkit-transform: rotate(2310deg);
-          transform: rotate(2310deg);
+  transform: rotate(2310deg);
 }
 .circle:nth-of-type(33) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(34) {
   -webkit-transform: rotate(2380deg);
-          transform: rotate(2380deg);
+  transform: rotate(2380deg);
 }
 .circle:nth-of-type(34) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(35) {
   -webkit-transform: rotate(2450deg);
-          transform: rotate(2450deg);
+  transform: rotate(2450deg);
 }
 .circle:nth-of-type(35) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(36) {
   -webkit-transform: rotate(2520deg);
-          transform: rotate(2520deg);
+  transform: rotate(2520deg);
 }
 .circle:nth-of-type(36) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(37) {
   -webkit-transform: rotate(2590deg);
-          transform: rotate(2590deg);
+  transform: rotate(2590deg);
 }
 .circle:nth-of-type(37) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(38) {
   -webkit-transform: rotate(2660deg);
-          transform: rotate(2660deg);
+  transform: rotate(2660deg);
 }
 .circle:nth-of-type(38) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(39) {
   -webkit-transform: rotate(2730deg);
-          transform: rotate(2730deg);
+  transform: rotate(2730deg);
 }
 .circle:nth-of-type(39) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(40) {
   -webkit-transform: rotate(2800deg);
-          transform: rotate(2800deg);
+  transform: rotate(2800deg);
 }
 .circle:nth-of-type(40) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(41) {
   -webkit-transform: rotate(2870deg);
-          transform: rotate(2870deg);
+  transform: rotate(2870deg);
 }
 .circle:nth-of-type(41) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(42) {
   -webkit-transform: rotate(2940deg);
-          transform: rotate(2940deg);
+  transform: rotate(2940deg);
 }
 .circle:nth-of-type(42) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(43) {
   -webkit-transform: rotate(3010deg);
-          transform: rotate(3010deg);
+  transform: rotate(3010deg);
 }
 .circle:nth-of-type(43) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(44) {
   -webkit-transform: rotate(3080deg);
-          transform: rotate(3080deg);
+  transform: rotate(3080deg);
 }
 .circle:nth-of-type(44) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(45) {
   -webkit-transform: rotate(3150deg);
-          transform: rotate(3150deg);
+  transform: rotate(3150deg);
 }
 .circle:nth-of-type(45) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(46) {
   -webkit-transform: rotate(3220deg);
-          transform: rotate(3220deg);
+  transform: rotate(3220deg);
 }
 .circle:nth-of-type(46) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(47) {
   -webkit-transform: rotate(3290deg);
-          transform: rotate(3290deg);
+  transform: rotate(3290deg);
 }
 .circle:nth-of-type(47) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(48) {
   -webkit-transform: rotate(3360deg);
-          transform: rotate(3360deg);
+  transform: rotate(3360deg);
 }
 .circle:nth-of-type(48) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(49) {
   -webkit-transform: rotate(3430deg);
-          transform: rotate(3430deg);
+  transform: rotate(3430deg);
 }
 .circle:nth-of-type(49) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(50) {
   -webkit-transform: rotate(3500deg);
-          transform: rotate(3500deg);
+  transform: rotate(3500deg);
 }
 .circle:nth-of-type(50) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(51) {
   -webkit-transform: rotate(3570deg);
-          transform: rotate(3570deg);
+  transform: rotate(3570deg);
 }
 .circle:nth-of-type(51) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(52) {
   -webkit-transform: rotate(3640deg);
-          transform: rotate(3640deg);
+  transform: rotate(3640deg);
 }
 .circle:nth-of-type(52) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(53) {
   -webkit-transform: rotate(3710deg);
-          transform: rotate(3710deg);
+  transform: rotate(3710deg);
 }
 .circle:nth-of-type(53) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(54) {
   -webkit-transform: rotate(3780deg);
-          transform: rotate(3780deg);
+  transform: rotate(3780deg);
 }
 .circle:nth-of-type(54) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(55) {
   -webkit-transform: rotate(3850deg);
-          transform: rotate(3850deg);
+  transform: rotate(3850deg);
 }
 .circle:nth-of-type(55) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(56) {
   -webkit-transform: rotate(3920deg);
-          transform: rotate(3920deg);
+  transform: rotate(3920deg);
 }
 .circle:nth-of-type(56) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(57) {
   -webkit-transform: rotate(3990deg);
-          transform: rotate(3990deg);
+  transform: rotate(3990deg);
 }
 .circle:nth-of-type(57) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(58) {
   -webkit-transform: rotate(4060deg);
-          transform: rotate(4060deg);
+  transform: rotate(4060deg);
 }
 .circle:nth-of-type(58) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(59) {
   -webkit-transform: rotate(4130deg);
-          transform: rotate(4130deg);
+  transform: rotate(4130deg);
 }
 .circle:nth-of-type(59) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(60) {
   -webkit-transform: rotate(4200deg);
-          transform: rotate(4200deg);
+  transform: rotate(4200deg);
 }
 .circle:nth-of-type(60) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(61) {
   -webkit-transform: rotate(4270deg);
-          transform: rotate(4270deg);
+  transform: rotate(4270deg);
 }
 .circle:nth-of-type(61) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(62) {
   -webkit-transform: rotate(4340deg);
-          transform: rotate(4340deg);
+  transform: rotate(4340deg);
 }
 .circle:nth-of-type(62) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(63) {
   -webkit-transform: rotate(4410deg);
-          transform: rotate(4410deg);
+  transform: rotate(4410deg);
 }
 .circle:nth-of-type(63) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(64) {
   -webkit-transform: rotate(4480deg);
-          transform: rotate(4480deg);
+  transform: rotate(4480deg);
 }
 .circle:nth-of-type(64) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(65) {
   -webkit-transform: rotate(4550deg);
-          transform: rotate(4550deg);
+  transform: rotate(4550deg);
 }
 .circle:nth-of-type(65) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(66) {
   -webkit-transform: rotate(4620deg);
-          transform: rotate(4620deg);
+  transform: rotate(4620deg);
 }
 .circle:nth-of-type(66) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(67) {
   -webkit-transform: rotate(4690deg);
-          transform: rotate(4690deg);
+  transform: rotate(4690deg);
 }
 .circle:nth-of-type(67) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(68) {
   -webkit-transform: rotate(4760deg);
-          transform: rotate(4760deg);
+  transform: rotate(4760deg);
 }
 .circle:nth-of-type(68) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(69) {
   -webkit-transform: rotate(4830deg);
-          transform: rotate(4830deg);
+  transform: rotate(4830deg);
 }
 .circle:nth-of-type(69) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(70) {
   -webkit-transform: rotate(4900deg);
-          transform: rotate(4900deg);
+  transform: rotate(4900deg);
 }
 .circle:nth-of-type(70) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(71) {
   -webkit-transform: rotate(4970deg);
-          transform: rotate(4970deg);
+  transform: rotate(4970deg);
 }
 .circle:nth-of-type(71) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(72) {
   -webkit-transform: rotate(5040deg);
-          transform: rotate(5040deg);
+  transform: rotate(5040deg);
 }
 .circle:nth-of-type(72) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(73) {
   -webkit-transform: rotate(5110deg);
-          transform: rotate(5110deg);
+  transform: rotate(5110deg);
 }
 .circle:nth-of-type(73) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(74) {
   -webkit-transform: rotate(5180deg);
-          transform: rotate(5180deg);
+  transform: rotate(5180deg);
 }
 .circle:nth-of-type(74) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(75) {
   -webkit-transform: rotate(5250deg);
-          transform: rotate(5250deg);
+  transform: rotate(5250deg);
 }
 .circle:nth-of-type(75) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(76) {
   -webkit-transform: rotate(5320deg);
-          transform: rotate(5320deg);
+  transform: rotate(5320deg);
 }
 .circle:nth-of-type(76) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(77) {
   -webkit-transform: rotate(5390deg);
-          transform: rotate(5390deg);
+  transform: rotate(5390deg);
 }
 .circle:nth-of-type(77) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(78) {
   -webkit-transform: rotate(5460deg);
-          transform: rotate(5460deg);
+  transform: rotate(5460deg);
 }
 .circle:nth-of-type(78) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(79) {
   -webkit-transform: rotate(5530deg);
-          transform: rotate(5530deg);
+  transform: rotate(5530deg);
 }
 .circle:nth-of-type(79) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(80) {
   -webkit-transform: rotate(5600deg);
-          transform: rotate(5600deg);
+  transform: rotate(5600deg);
 }
 .circle:nth-of-type(80) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(81) {
   -webkit-transform: rotate(5670deg);
-          transform: rotate(5670deg);
+  transform: rotate(5670deg);
 }
 .circle:nth-of-type(81) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(82) {
   -webkit-transform: rotate(5740deg);
-          transform: rotate(5740deg);
+  transform: rotate(5740deg);
 }
 .circle:nth-of-type(82) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(83) {
   -webkit-transform: rotate(5810deg);
-          transform: rotate(5810deg);
+  transform: rotate(5810deg);
 }
 .circle:nth-of-type(83) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(84) {
   -webkit-transform: rotate(5880deg);
-          transform: rotate(5880deg);
+  transform: rotate(5880deg);
 }
 .circle:nth-of-type(84) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(85) {
   -webkit-transform: rotate(5950deg);
-          transform: rotate(5950deg);
+  transform: rotate(5950deg);
 }
 .circle:nth-of-type(85) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(86) {
   -webkit-transform: rotate(6020deg);
-          transform: rotate(6020deg);
+  transform: rotate(6020deg);
 }
 .circle:nth-of-type(86) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(87) {
   -webkit-transform: rotate(6090deg);
-          transform: rotate(6090deg);
+  transform: rotate(6090deg);
 }
 .circle:nth-of-type(87) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(88) {
   -webkit-transform: rotate(6160deg);
-          transform: rotate(6160deg);
+  transform: rotate(6160deg);
 }
 .circle:nth-of-type(88) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(89) {
   -webkit-transform: rotate(6230deg);
-          transform: rotate(6230deg);
+  transform: rotate(6230deg);
 }
 .circle:nth-of-type(89) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(90) {
   -webkit-transform: rotate(6300deg);
-          transform: rotate(6300deg);
+  transform: rotate(6300deg);
 }
 .circle:nth-of-type(90) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(91) {
   -webkit-transform: rotate(6370deg);
-          transform: rotate(6370deg);
+  transform: rotate(6370deg);
 }
 .circle:nth-of-type(91) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(92) {
   -webkit-transform: rotate(6440deg);
-          transform: rotate(6440deg);
+  transform: rotate(6440deg);
 }
 .circle:nth-of-type(92) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(93) {
   -webkit-transform: rotate(6510deg);
-          transform: rotate(6510deg);
+  transform: rotate(6510deg);
 }
 .circle:nth-of-type(93) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(94) {
   -webkit-transform: rotate(6580deg);
-          transform: rotate(6580deg);
+  transform: rotate(6580deg);
 }
 .circle:nth-of-type(94) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(95) {
   -webkit-transform: rotate(6650deg);
-          transform: rotate(6650deg);
+  transform: rotate(6650deg);
 }
 .circle:nth-of-type(95) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(96) {
   -webkit-transform: rotate(6720deg);
-          transform: rotate(6720deg);
+  transform: rotate(6720deg);
 }
 .circle:nth-of-type(96) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(97) {
   -webkit-transform: rotate(6790deg);
-          transform: rotate(6790deg);
+  transform: rotate(6790deg);
 }
 .circle:nth-of-type(97) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(98) {
   -webkit-transform: rotate(6860deg);
-          transform: rotate(6860deg);
+  transform: rotate(6860deg);
 }
 .circle:nth-of-type(98) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(99) {
   -webkit-transform: rotate(6930deg);
-          transform: rotate(6930deg);
+  transform: rotate(6930deg);
 }
 .circle:nth-of-type(99) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .circle:nth-of-type(100) {
   -webkit-transform: rotate(7000deg);
-          transform: rotate(7000deg);
+  transform: rotate(7000deg);
 }
 .circle:nth-of-type(100) .inner {
   -webkit-animation: spin 2s infinite linear;
-          animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
 }
 
 .demo {
   -webkit-animation: spin 5s infinite linear;
-          animation: spin 5s infinite linear;
+  animation: spin 5s infinite linear;
 }

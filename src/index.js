@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import ResetCss from './lib/resetCss'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import ResetCss from "./lib/resetCss";
 
 ReactDOM.render(
-<React.Fragment>
-    <ResetCss/>
+  <React.Fragment>
+    <ResetCss />
     <App />
-</React.Fragment>
-    , document.getElementById('root'));
+  </React.Fragment>,
+  document.getElementById("root")
+);

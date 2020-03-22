@@ -36,7 +36,9 @@ const asyncComponent = importComponent => {
               <div className="inner"></div>
             </div>
           </div>
-          <a className="siteLoading" href="http://google.com">RightJob.com</a>
+          <a className="siteLoading" href="http://google.com">
+            RightJob.com
+          </a>
         </div>
       );
     }

@@ -1,5 +1,3 @@
-/* eslint-disable react/jsx-closing-tag-location */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import cookie from "react-cookies";
 import { func } from "prop-types";

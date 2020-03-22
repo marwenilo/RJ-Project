@@ -4,9 +4,7 @@ import store from "./Js/store";
 import asyncComponent from "./components/hoc/Loading";
 
 const AsyncComp = asyncComponent(() => {
-
   return import("./route");
-
 });
 
 class App extends Component {

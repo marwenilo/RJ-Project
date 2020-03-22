@@ -1,6 +1,6 @@
 import React from "react";
 import LoginWrapper from "./loginWrapper";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import GitHub from "./components/GitHub";
 import Google from "./components/Google";
 
