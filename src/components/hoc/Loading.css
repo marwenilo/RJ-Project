@@ -55,7 +55,7 @@
   }
 }
 
-@keyframes spin {
+/* @keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -64,7 +64,10 @@
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+} */
+
+
+
 .circle:nth-of-type(0) {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -969,10 +972,10 @@
   -webkit-transform: rotate(7000deg);
   transform: rotate(7000deg);
 }
-.circle:nth-of-type(100) .inner {
+/* .circle:nth-of-type(100) .inner {
   -webkit-animation: spin 2s infinite linear;
   animation: spin 2s infinite linear;
-}
+} */
 
 .demo {
   -webkit-animation: spin 5s infinite linear;
