@@ -18,7 +18,7 @@ const asyncComponent = importComponent => {
       return C ? (
         <C {...this.props} />
       ) : (
-        <div className="bodyLoading">
+   { /*    <div className="bodyLoading">
           <div className="demo">
             <div className="circle">
               <div className="inner"></div>
@@ -39,7 +39,8 @@ const asyncComponent = importComponent => {
           <a className="siteLoading" href="http://google.com">
             RightJob.com
           </a>
-        </div>
+      </div>*/}
+      <p>geting ready for the new loading page</p>
       );
     }
   };
